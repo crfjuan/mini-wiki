@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 // seletor{
 //  propriedade:valor;
 //  }
@@ -12,6 +13,7 @@
 }
 
 body{
+    font-family: "Poppins", sans-serif;
     background-color: rgb(96, 177, 243);
 }
 
@@ -20,5 +22,21 @@ img{
  border-radius: 25px; 
 }
 h1{
+    font-family: "Raleway", sans-serif;
     color: #fff
 }
+// no index.html nos vamos nomear a tag -> class
+// para chamar uma class aqui no style precisamos usar o: .nomeDaClass
+.tituloMusicas{
+    // propriedade:valor;
+    color: blanchedalmond;
+ }
+ 
+ ol{
+    //COR HEXADECIMAL
+     //  # SEGUIDA DE 3 PARES, CADA PARA É REFERENTE AO RGB, 00, ff
+    //background-color: #040433;
+    //rgb + alpha(rgba) ele é referente ao uma cor com opacidade/trasparencia
+    background-color: rgba(124, 40, 93, 0.203);
+    color: azure;
+ }
